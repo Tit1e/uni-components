@@ -3,6 +3,9 @@
         <view class="list-item" @click="toPage('/pages/groupAvatar/groupAvatar')">
             群聊头像
         </view>
+        <view class="list-item" @click="toPage('/pages/mask/mask')">
+            应用锁
+        </view>
 	</view>
 </template>
 
@@ -33,6 +36,9 @@
             text-align: center;
             background-color: #eaeaea;
             border-radius: 4px;
+            & + .list-item{
+                margin-top: 10px;
+            }
         }
     }
 </style>

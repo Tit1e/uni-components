@@ -15,6 +15,17 @@
             }
             
         }
+        ,{
+        	"path": "pages/mask/mask",
+        	"style": {
+        		"navigationStyle": "custom",
+        		"app-plus": {
+                    "animationType": "none",
+        			"background": "transparent",
+        			"popGesture": "none"
+        		}
+        	}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

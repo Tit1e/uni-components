@@ -129,7 +129,8 @@
                 }
                 const result = []
                 for (let i = 0, len = data.length; i < len; i += this.colNumber) {
-                    result.push(data.slice(i, i + this.colNumber))
+                    const list = this.avatarReverse ? data.slice(i, i + this.colNumber).reverse() : data.slice(i, i + this.colNumber)
+                    result.push(list)
                 }
                 return this.avatarReverse ? result.reverse() : result
             }

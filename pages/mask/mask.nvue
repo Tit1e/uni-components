@@ -1,0 +1,28 @@
+<template>
+	<view class="mask" blurEffect="dark"></view>
+</template>
+
+<script>
+	export default {
+        onLoad() {
+            uni.startSoterAuthentication({
+                requestAuthModes: ['facial', 'fingerPrint'],
+                success: res => {
+                    setTimeout(() => {
+                        uni.navigateBack({})
+                    }, 1000)
+                }
+            })
+        }
+	}
+</script>
+
+<style scoped>
+	.mask {
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+</style>
