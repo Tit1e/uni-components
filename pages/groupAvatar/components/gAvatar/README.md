@@ -4,12 +4,12 @@
 
 ```html
 <g-avatar
-		:images="images"
-		:border-width="6"
-		:avatar-size="40"
-		background-color="#0c0c0c"
-		:avatar-reverse="true"
-		@loaded="getImage"
+  background-color="#0c0c0c"
+  :images="images"
+  :border-width="6"
+  :avatar-size="40"
+  :avatar-reverse="true"
+  @loaded="getImage"
 />
 ```
 
