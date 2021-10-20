@@ -1,5 +1,4 @@
 # GAvatar
-
 ### 基础用法
 
 ```html
@@ -46,3 +45,5 @@ export default{
 | -------- | --------------------------- | --------- |
 | loaded   | canvas 转换为 base64 后触发 | base64 值 |
 
+### 预览
+![](../../../../priview/GAvatar.PNG)
